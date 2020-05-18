@@ -14,13 +14,25 @@ public class CheckBoard {
 
             String[] arrayCopy = board[i].clone();
             String lineAsString = String.join("", arrayCopy);
-            char charArray[] = lineAsString.toCharArray();
+            char[] charArray = lineAsString.toCharArray();
             Arrays.sort(charArray);
-            String sortedLineAsString = charArray.toString();
+            System.out.println(charArray);
+            //String charArrayToString = Arrays.toString(charArray);
+            //System.out.println(charArrayToString);
+//            String sortedLineAsString = charArrayToString.join("");
+//
+//            System.out.println(sortedLineAsString);
 
-            if (sortedLineAsString != "123456789") {
+//            String sortedLineAsString = Arrays.toString(charArrayToString).substring(1, 3*charArrayToString.length()-1).replaceAll(", ", "");
+            String sortedLineAsString = "";
+            String charArrayToString = new String(charArray);
+            System.out.println(charArrayToString);
+            String sortedNumbers = "123456789";
+            if (charArrayToString.compareTo(sortedNumbers) != 0) {
                 return false;
             }
         }
+
+        return true;
     }
 }

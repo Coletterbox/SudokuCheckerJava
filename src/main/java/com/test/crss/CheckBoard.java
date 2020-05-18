@@ -12,13 +12,11 @@ public class CheckBoard {
 
         // checks each array (i.e. each row) is 1-9
         for (int i = 0; i < board.length; i++) {
-
             String[] arrayCopy = board[i].clone();
             String lineAsString = String.join("", arrayCopy);
             char[] charArray = lineAsString.toCharArray();
             Arrays.sort(charArray);
             String charArrayToString = new String(charArray);
-
             String sortedNumbers = "123456789";
             if (charArrayToString.compareTo(sortedNumbers) != 0) {
                 return false;
@@ -34,14 +32,11 @@ public class CheckBoard {
                 columnsArrayIndex++;
             }
         }
-        //System.out.println(Arrays.toString(columns));
         for (int l = 0; l < 9; l++) {
             int number = l*9;
             String[] column = Arrays.copyOfRange(columns, number, number + 9);
             Arrays.sort(column);
             String joinedColumn = String.join("", column);
-            System.out.println(joinedColumn);
-
             String sortedNumbers = "123456789";
             if (joinedColumn.compareTo(sortedNumbers) != 0) {
                 return false;

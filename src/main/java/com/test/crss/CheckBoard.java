@@ -38,6 +38,7 @@ public class CheckBoard {
         for (int l = 0; l < 9; l++) {
             int number = l*9;
             String[] column = Arrays.copyOfRange(columns, number, number + 9);
+            Arrays.sort(column);
             String joinedColumn = String.join("", column);
             System.out.println(joinedColumn);
 

@@ -9,7 +9,7 @@ import org.junit.Test;
 public class AppTest {
 
     @Test
-    public void shouldAnswerWithFalse() {
+    public void checkBoardWithOnlyRowsCorrect() {
         CheckBoard checkBoard = new CheckBoard();
         String[][] incorrectBoard = {{"1", "2", "3", "4", "5", "6", "7", "8", "9"},
                 {"1", "2", "3", "4", "5", "6", "7", "8", "9"},
@@ -24,7 +24,7 @@ public class AppTest {
     }
 
     @Test
-    public void shouldAnswerWithTrue() {
+    public void checkCorrectBoard() {
         CheckBoard checkBoard = new CheckBoard();
         String[][] correctBoard = {{"8", "3", "5", "4", "1", "6", "9", "2", "7"},
                 {"2", "9", "6", "8", "5", "7", "4", "3", "1"},
@@ -36,6 +36,22 @@ public class AppTest {
                 {"9", "8", "1", "3", "4", "5", "2", "7", "6"},
                 {"3", "7", "4", "9", "6", "2", "8", "1", "5"}};
         assertTrue(checkBoard.checkBoard(correctBoard));
+    }
+
+    @Test
+    public void checkBoardWithRowsAndColumnsCorrectButNotSquares() {
+        CheckBoard checkBoard = new CheckBoard();
+        String[][] incorrectBoard =
+                {{"1", "2", "3", "4", "5", "6", "7", "8", "9"},
+                {"9", "1", "2", "3", "4", "5", "6", "7", "8"},
+                {"8", "9", "1", "2", "3", "4", "5", "6", "7"},
+                {"7", "8", "9", "1", "2", "3", "4", "5", "6"},
+                {"6", "7", "8", "9", "1", "2", "3", "4", "5"},
+                {"5", "6", "7", "8", "9", "1", "2", "3", "4"},
+                {"4", "5", "6", "7", "8", "9", "1", "2", "3"},
+                {"3", "4", "5", "6", "7", "8", "9", "1", "2"},
+                {"2", "3", "4", "5", "6", "7", "8", "9", "1"}};
+        assertFalse(checkBoard.checkBoard(incorrectBoard));
     }
 
 }

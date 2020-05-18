@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>20200518</groupId>
-  <artifactId>Sudoku Checker</artifactId>
+  <groupId>com.test.crss</groupId>
+  <artifactId>SudokuChecker</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>Sudoku Checker</name>
+  <name>SudokuChecker</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 

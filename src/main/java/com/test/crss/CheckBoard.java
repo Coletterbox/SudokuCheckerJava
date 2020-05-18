@@ -10,6 +10,12 @@ public class CheckBoard {
 
     public static boolean checkBoard(String[][] board) {
 
+        // In the context that this will be used in, it will be a given that the input is a
+        // two-dimensional array (9*9), each item being 1-9 (or 0 for a blank square).
+
+        // The variable type of the numbers may be different, but a separate method will account
+        // for that.
+
         // checks each array (i.e. each row) is 1-9
         for (int i = 0; i < board.length; i++) {
             String[] arrayCopy = board[i].clone();

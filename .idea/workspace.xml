@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70d3e47a-1909-4b12-a8cc-8a2662bac602" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/crss/ConvertArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/crss/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/crss/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/crss/CheckBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/crss/CheckBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/crss/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/crss/CheckBoardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/test/crss/CheckBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/crss/CheckBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/crss/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/crss/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/crss/AppTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +21,14 @@
   </component>
   <component name="ProjectId" id="1c5T1hk8Qc7rFUszv5pEu1JFMoa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test.crss" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -30,8 +41,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.checkAnotherIncorrectBoard">
-    <configuration name="AppTest.checkAnotherCorrectBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ConvertArrayTest.checkArrayIsConverted">
+    <configuration name="CheckBoardTest.checkAnotherCorrectBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SudokuChecker" />
       <extension name="coverage">
         <pattern>
@@ -40,14 +51,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.crss" />
-      <option name="MAIN_CLASS_NAME" value="com.test.crss.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="com.test.crss.CheckBoardTest" />
       <option name="METHOD_NAME" value="checkAnotherCorrectBoard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.checkAnotherIncorrectBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckBoardTest.checkAnotherIncorrectBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SudokuChecker" />
       <extension name="coverage">
         <pattern>
@@ -56,14 +67,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.crss" />
-      <option name="MAIN_CLASS_NAME" value="com.test.crss.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="com.test.crss.CheckBoardTest" />
       <option name="METHOD_NAME" value="checkAnotherIncorrectBoard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.checkBoardWithOnlyColumnsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckBoardTest.checkIncompleteBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SudokuChecker" />
       <extension name="coverage">
         <pattern>
@@ -72,30 +83,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.crss" />
-      <option name="MAIN_CLASS_NAME" value="com.test.crss.AppTest" />
-      <option name="METHOD_NAME" value="checkBoardWithOnlyColumnsCorrect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.checkIncompleteBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SudokuChecker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.crss.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.crss" />
-      <option name="MAIN_CLASS_NAME" value="com.test.crss.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="com.test.crss.CheckBoardTest" />
       <option name="METHOD_NAME" value="checkIncompleteBoard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.checkIncorrectBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckBoardTest.checkIncorrectBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SudokuChecker" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +99,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.crss" />
-      <option name="MAIN_CLASS_NAME" value="com.test.crss.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="com.test.crss.CheckBoardTest" />
       <option name="METHOD_NAME" value="checkIncorrectBoard" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertArrayTest.checkArrayIsConverted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SudokuChecker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.crss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.crss" />
+      <option name="MAIN_CLASS_NAME" value="com.test.crss.ConvertArrayTest" />
+      <option name="METHOD_NAME" value="checkArrayIsConverted" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.checkAnotherIncorrectBoard" />
-        <item itemvalue="JUnit.AppTest.checkAnotherCorrectBoard" />
-        <item itemvalue="JUnit.AppTest.checkIncorrectBoard" />
-        <item itemvalue="JUnit.AppTest.checkIncompleteBoard" />
-        <item itemvalue="JUnit.AppTest.checkBoardWithOnlyColumnsCorrect" />
+        <item itemvalue="JUnit.ConvertArrayTest.checkArrayIsConverted" />
+        <item itemvalue="JUnit.CheckBoardTest.checkAnotherIncorrectBoard" />
+        <item itemvalue="JUnit.CheckBoardTest.checkAnotherCorrectBoard" />
+        <item itemvalue="JUnit.CheckBoardTest.checkIncorrectBoard" />
+        <item itemvalue="JUnit.CheckBoardTest.checkIncompleteBoard" />
       </list>
     </recent_temporary>
   </component>

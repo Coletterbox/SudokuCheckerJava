@@ -8,6 +8,16 @@ public class CheckBoard {
 
     }
 
+    public static String[][] convertIntArrayToStringArray(int[][] board) {
+        String[][] boardAsStrings = new String[board.length][board[0].length];
+        for (int i = 0; i < board.length; i++) {
+            for (int j = 0; j < board[i].length; j++) {
+                boardAsStrings[i][j] = Integer.toString(board[i][j]);
+            }
+        }
+        return boardAsStrings;
+    }
+
     public static boolean checkBoard(String[][] board) {
 
         // In the context that this will be used in, it will be a given that the input is a

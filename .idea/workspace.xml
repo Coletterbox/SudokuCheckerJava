@@ -2,19 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70d3e47a-1909-4b12-a8cc-8a2662bac602" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/crss/ConvertArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/crss/CheckBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/crss/CheckBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/crss/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/crss/CheckBoardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/crss/CheckBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/crss/CheckBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/crss/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/crss/ConvertArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/crss/ConvertArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/crss/ConvertArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/crss/ConvertArrayTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,23 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConvertArrayTest.checkArrayIsConverted">
-    <configuration name="CheckBoardTest.checkAnotherCorrectBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SudokuChecker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.crss.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.crss" />
-      <option name="MAIN_CLASS_NAME" value="com.test.crss.CheckBoardTest" />
-      <option name="METHOD_NAME" value="checkAnotherCorrectBoard" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ConvertArrayTest.checkForFalsePositives">
     <configuration name="CheckBoardTest.checkAnotherIncorrectBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SudokuChecker" />
       <extension name="coverage">
@@ -74,7 +61,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBoardTest.checkIncompleteBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConvertArrayTest.checkAnotherArrayIsConverted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SudokuChecker" />
       <extension name="coverage">
         <pattern>
@@ -83,14 +70,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.crss" />
-      <option name="MAIN_CLASS_NAME" value="com.test.crss.CheckBoardTest" />
-      <option name="METHOD_NAME" value="checkIncompleteBoard" />
+      <option name="MAIN_CLASS_NAME" value="com.test.crss.ConvertArrayTest" />
+      <option name="METHOD_NAME" value="checkAnotherArrayIsConverted" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckBoardTest.checkIncorrectBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConvertArrayTest.checkAnotherArrayIsConverted2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SudokuChecker" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +86,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.crss" />
-      <option name="MAIN_CLASS_NAME" value="com.test.crss.CheckBoardTest" />
-      <option name="METHOD_NAME" value="checkIncorrectBoard" />
+      <option name="MAIN_CLASS_NAME" value="com.test.crss.ConvertArrayTest" />
+      <option name="METHOD_NAME" value="checkAnotherArrayIsConverted2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,13 +109,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConvertArrayTest.checkForFalsePositives" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SudokuChecker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.crss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.crss" />
+      <option name="MAIN_CLASS_NAME" value="com.test.crss.ConvertArrayTest" />
+      <option name="METHOD_NAME" value="checkForFalsePositives" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConvertArrayTest.checkForFalsePositives" />
+        <item itemvalue="JUnit.ConvertArrayTest.checkAnotherArrayIsConverted2" />
+        <item itemvalue="JUnit.ConvertArrayTest.checkAnotherArrayIsConverted" />
         <item itemvalue="JUnit.ConvertArrayTest.checkArrayIsConverted" />
         <item itemvalue="JUnit.CheckBoardTest.checkAnotherIncorrectBoard" />
-        <item itemvalue="JUnit.CheckBoardTest.checkAnotherCorrectBoard" />
-        <item itemvalue="JUnit.CheckBoardTest.checkIncorrectBoard" />
-        <item itemvalue="JUnit.CheckBoardTest.checkIncompleteBoard" />
       </list>
     </recent_temporary>
   </component>

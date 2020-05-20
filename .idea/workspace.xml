@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70d3e47a-1909-4b12-a8cc-8a2662bac602" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/crss/TestsToRunOnStoredSolutions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/crss/ConvertArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/crss/ConvertArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/crss/TestSolutions.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/crss/ConvertArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/crss/ConvertArrayTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,6 +32,11 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.test.crss" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,8 +50,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConvertArrayTest.checkForFalsePositives">
-    <configuration name="CheckBoardTest.checkAnotherIncorrectBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestsToRunOnStoredSolutions">
+    <configuration name="TestsToRunOnStoredSolutions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SudokuChecker" />
       <extension name="coverage">
         <pattern>
@@ -54,14 +60,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.crss" />
-      <option name="MAIN_CLASS_NAME" value="com.test.crss.CheckBoardTest" />
-      <option name="METHOD_NAME" value="checkAnotherIncorrectBoard" />
+      <option name="MAIN_CLASS_NAME" value="com.test.crss.TestsToRunOnStoredSolutions" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestsToRunOnStoredSolutions.checkBoard10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SudokuChecker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.crss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.crss" />
+      <option name="MAIN_CLASS_NAME" value="com.test.crss.TestsToRunOnStoredSolutions" />
+      <option name="METHOD_NAME" value="checkBoard10" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertArrayTest.checkAnotherArrayIsConverted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestsToRunOnStoredSolutions.checkBoard8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SudokuChecker" />
       <extension name="coverage">
         <pattern>
@@ -70,14 +91,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.crss" />
-      <option name="MAIN_CLASS_NAME" value="com.test.crss.ConvertArrayTest" />
-      <option name="METHOD_NAME" value="checkAnotherArrayIsConverted" />
+      <option name="MAIN_CLASS_NAME" value="com.test.crss.TestsToRunOnStoredSolutions" />
+      <option name="METHOD_NAME" value="checkBoard8" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertArrayTest.checkAnotherArrayIsConverted2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestsToRunOnStoredSolutions.checkBoard9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SudokuChecker" />
       <extension name="coverage">
         <pattern>
@@ -86,14 +107,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.crss" />
-      <option name="MAIN_CLASS_NAME" value="com.test.crss.ConvertArrayTest" />
-      <option name="METHOD_NAME" value="checkAnotherArrayIsConverted2" />
+      <option name="MAIN_CLASS_NAME" value="com.test.crss.TestsToRunOnStoredSolutions" />
+      <option name="METHOD_NAME" value="checkBoard9" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertArrayTest.checkArrayIsConverted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestsToRunOnStoredSolutions.okayLetsCheckForFalsePositivesAgain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SudokuChecker" />
       <extension name="coverage">
         <pattern>
@@ -102,24 +123,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.crss" />
-      <option name="MAIN_CLASS_NAME" value="com.test.crss.ConvertArrayTest" />
-      <option name="METHOD_NAME" value="checkArrayIsConverted" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConvertArrayTest.checkForFalsePositives" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SudokuChecker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.crss.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.crss" />
-      <option name="MAIN_CLASS_NAME" value="com.test.crss.ConvertArrayTest" />
-      <option name="METHOD_NAME" value="checkForFalsePositives" />
+      <option name="MAIN_CLASS_NAME" value="com.test.crss.TestsToRunOnStoredSolutions" />
+      <option name="METHOD_NAME" value="okayLetsCheckForFalsePositivesAgain" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConvertArrayTest.checkForFalsePositives" />
-        <item itemvalue="JUnit.ConvertArrayTest.checkAnotherArrayIsConverted2" />
-        <item itemvalue="JUnit.ConvertArrayTest.checkAnotherArrayIsConverted" />
-        <item itemvalue="JUnit.ConvertArrayTest.checkArrayIsConverted" />
-        <item itemvalue="JUnit.CheckBoardTest.checkAnotherIncorrectBoard" />
+        <item itemvalue="JUnit.TestsToRunOnStoredSolutions" />
+        <item itemvalue="JUnit.TestsToRunOnStoredSolutions.okayLetsCheckForFalsePositivesAgain" />
+        <item itemvalue="JUnit.TestsToRunOnStoredSolutions.checkBoard10" />
+        <item itemvalue="JUnit.TestsToRunOnStoredSolutions.checkBoard9" />
+        <item itemvalue="JUnit.TestsToRunOnStoredSolutions.checkBoard8" />
       </list>
     </recent_temporary>
   </component>

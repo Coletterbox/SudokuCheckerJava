@@ -10,3 +10,4 @@
 - [x] Run tests
 - [x] Look at adorable mouse gifs
 - [ ] Refactor
+- [ ] Write method that converts a two-dimensional array of integers to a two-dimensional array of strings (maybe check if there's a more out-of-the-box method, but also, whatever)
